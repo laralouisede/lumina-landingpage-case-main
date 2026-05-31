@@ -23,7 +23,7 @@ Formålet med projektet var at forbedre brugeroplevelsen gennem interaktive funk
 
 Jeg implementerede smooth scrolling ved hjælp af JavaScript og `scrollIntoView()`.
 
-Når brugeren klikker på knapperne **"Læs mere"** eller **"Køb nu"**, scroller siden automatisk ned til produktsektionen med en smooth animation.
+Når brugeren klikker på knapperne "Læs mere" eller "Køb nu", scroller siden automatisk ned til produktsektionen med en smooth animation.
 
 Dette skaber en mere intuitiv navigation og forbedrer brugeroplevelsen.
 
@@ -80,7 +80,7 @@ Hvis brugeren vælger en anden farve:
 
 ### Køb nu-funktionalitet
 
-Jeg implementerede JavaScript-funktionalitet på **"Køb nu"**-knappen.
+Jeg implementerede JavaScript-funktionalitet på "Køb nu"-knappen.
 
 Hvis brugeren ikke har valgt en farve:
 
