@@ -2,11 +2,11 @@
 
 ## Projektbeskrivelse
 
-LUMINA er en responsiv landingpage udviklet som en del af mit eksamensprojekt på Multimediedesigneruddannelsen.
+LUMINA ONE er en responsiv landingpage udviklet som en del af mit eksamensprojekt på Multimediedesigneruddannelsen.
 
 Formålet med projektet var at forbedre brugeroplevelsen gennem bedre navigation, tydeligere visuel feedback og mere interaktive funktioner ved hjælp af HTML, CSS og JavaScript.
 
-Projektet blev gennemført gennem vurdering af den eksisterende prototype, redesign i Figma, analyse af landingpagen ud fra gestaltprincipperne og efterfølgende implementering i kode.
+Projektet blev gennemført gennem vurdering af den eksisterende prototype, redesign i Figma, analyse af landingpagen ud fra gestaltprincipperne og efterfølgende omsætning i kode.
 
 ---
 
@@ -38,7 +38,7 @@ Målet var at skabe en mere brugervenlig og engagerende landingpage med tydelige
 
 ### Oprindelig prototype
 
-![Oprindelig prototype](img/prototype.før.png)
+[Oprindelig prototype](img/prototype.før.png)
 
 Den oprindelige prototype fungerede som udgangspunkt for redesignprocessen.
 
@@ -46,7 +46,7 @@ Den oprindelige prototype fungerede som udgangspunkt for redesignprocessen.
 
 ### Redesignet prototype
 
-![Redesignet prototype](img/protoype.efter.png)
+[Redesignet prototype](img/protoype.efter.png)
 
 I den forbedrede version arbejdede jeg blandt andet med:
 
@@ -61,7 +61,7 @@ I den forbedrede version arbejdede jeg blandt andet med:
 
 ### Oversigt over forbedringer
 
-![Designforbedringer](img/prototype.sammenligning.png)
+[Designforbedringer](img/prototype.sammenligning.png)
 
 #### Hero-sektion
 
@@ -100,24 +100,24 @@ Analysen fokuserede på usability, readability, visual hierarchy og interaktivit
 
 ### Proximity (Nærhed)
 
-**Det fungerede godt:**
+Det fungerede godt:
 
 - Produktbilleder og farvevalg var placeret tæt sammen
 - Funktionerne var organiseret i overskuelige grupper
 
-**Forbedringsmuligheder:**
+Forbedringsmuligheder:
 
 - CTA-knapper kunne forbindes tydeligere med produktet
 - Mere visuel feedback ved interaktion
 
 ### Similarity (Lighed)
 
-**Det fungerede godt:**
+Det fungerede godt:
 
 - Konsistent farvepalette
 - Sammenhængende typografi
 
-**Forbedringsmuligheder:**
+Forbedringsmuligheder:
 
 - Tydeligere active states ved farvevalg
 - Mere feedback på CTA-knapper
@@ -136,23 +136,23 @@ Analysen fokuserede på usability, readability, visual hierarchy og interaktivit
 
 ### Figure/Ground
 
-**Det fungerede godt:**
+Det fungerede godt:
 
 - Produktet var det primære fokuspunkt
 
-**Forbedringsmuligheder:**
+Forbedringsmuligheder:
 
 - Mere synlige CTA-knapper
 - Tydeligere visuel feedback
 
 ### Simplicity / Prägnanz
 
-**Det fungerede godt:**
+Det fungerede godt:
 
 - Minimalistisk design
 - Overskuelig struktur
 
-**Forbedringsmuligheder:**
+Forbedringsmuligheder:
 
 - Flere interaktive elementer
 - Mere feedback til brugeren ved handlinger
@@ -251,7 +251,7 @@ Hvis brugeren vælger en anden farve:
 - Tidligere active state fjernes
 - Den nye farve markeres automatisk
 
-![Designforbedringer](img/lumina.farvevalg.png)
+[Designforbedringer](img/lumina.farvevalg.png)
 
 ---
 
@@ -263,13 +263,13 @@ Hvis ingen farve er valgt:
 
 - Der vises en advarselsbesked
 
-![Designforbedringer](img/advarelses.popup.png)
+[Designforbedringer](img/advarelses.popup.png)
 
 Hvis en farve er valgt:
 
 - Der vises en bekræftelsesbesked med den valgte farve
 
-![Designforbedringer](img/lagt.i.kurven.popup.png)
+[Designforbedringer](img/lagt.i.kurven.popup.png)
 
 Dette giver brugeren tydelig feedback på handlingen.
 
@@ -281,7 +281,7 @@ Jeg gjorde Trustpilot-knappen interaktiv ved hjælp af JavaScript.
 
 Når brugeren klikker på knappen, modtager brugeren feedback, hvilket gør sektionen mere levende og interaktiv.
 
-![Designforbedringer](img/trust.pilot.popup.png)
+[Designforbedringer](img/trust.pilot.popup.png)
 
 ---
 
@@ -289,7 +289,7 @@ Når brugeren klikker på knappen, modtager brugeren feedback, hvilket gør sekt
 
 Jeg reducerede afstanden mellem inspirationsbillederne og tekstsektionen ved hjælp af CSS.
 
-![Designforbedringer](img/reduceret.afstand.png)
+[Designforbedringer](img/reduceret.afstand.png)
 
 Dette skaber:
 
@@ -329,23 +329,3 @@ Projektet har givet mig erfaring med:
 - Visuel feedback
 - Brugercentreret design
 - Git og GitHub
-
----
-
-# Links
-
-## GitHub Repository
-
-Indsæt link her
-
-## GitHub Pages
-
-Indsæt link her
-
-## Figma Design
-
-Indsæt link her
-
-## Figma Prototype
-
-Indsæt link her
