@@ -4,53 +4,218 @@
 
 LUMINA er en responsiv landingpage udviklet som en del af mit eksamensprojekt på Multimediedesigneruddannelsen.
 
-Formålet med projektet var at forbedre brugeroplevelsen gennem interaktive funktioner, tydeligere navigation og forbedret visuel feedback ved hjælp af HTML, CSS og JavaScript.
+Formålet med projektet var at forbedre brugeroplevelsen gennem bedre navigation, tydeligere visuel feedback og mere interaktive funktioner ved hjælp af HTML, CSS og JavaScript.
+
+Projektet blev gennemført gennem vurdering af den eksisterende prototype, redesign i Figma, analyse af landingpagen ud fra gestaltprincipperne og efterfølgende implementering i kode.
 
 ---
 
-## Teknologier
+# Projektproces
 
-- HTML5
-- CSS3
-- JavaScript
-- Figma
+## 1. Gennemgang af den eksisterende prototype
+
+Det første jeg gjorde i projektet var at gennemgå den eksisterende Figma-prototype.
+
+Jeg vurderede løsningen ud fra et UX- og UI-perspektiv og identificerede områder, hvor brugeroplevelsen kunne forbedres.
+
+Jeg observerede blandt andet:
+
+- Manglende visuel feedback ved interaktion
+- Begrænset navigation mellem sektioner
+- Manglende active states ved farvevalg
+- Begrænset interaktivitet
+- Footer med få relevante oplysninger
+
+På baggrund af disse observationer udviklede jeg mine egne idéer til forbedringer af landingpagen.
 
 ---
 
-## Implementerede forbedringer
+## 2. Redesign i Figma
+
+På baggrund af mine observationer udviklede jeg en forbedret version af den eksisterende prototype i Figma.
+
+Målet var at skabe en mere brugervenlig og engagerende landingpage med tydeligere navigation, bedre informationsstruktur og mere visuel feedback.
+
+### Oprindelig prototype
+
+![Oprindelig prototype](img/prototype.før.png)
+
+Den oprindelige prototype fungerede som udgangspunkt for redesignprocessen.
+
+---
+
+### Redesignet prototype
+
+![Redesignet prototype](img/protoype.efter.png)
+
+I den forbedrede version arbejdede jeg blandt andet med:
+
+- Mere synligt logo
+- Beskrivende tekst i hero-sektionen
+- Tydeligere produktinformation
+- Bedre informationsstruktur
+- Større inspirationsbilleder
+- Mere informativ footer
+
+---
+
+### Oversigt over forbedringer
+
+![Designforbedringer](img/prototype.sammenligning.png)
+
+#### Hero-sektion
+
+- Logoet blev gjort mere synligt
+- Beskrivende tekst blev tilføjet for at kommunikere produktets funktion hurtigere
+
+#### Produktsektion
+
+- Farvevalgene blev gjort tydeligere
+- Produktområdet blev gjort mere overskueligt
+- Købsflowet blev forbedret
+
+#### Informationsstruktur
+
+- Produktbeskrivelsen blev gjort mere læsbar
+- Funktionerne blev organiseret i to kolonner for bedre overblik
+
+#### Inspirationssektion
+
+- Billederne blev gjort større
+- Layoutet blev gjort mere harmonisk
+
+#### Footer
+
+- Sociale medier blev tilføjet
+- Kontaktoplysninger blev tilføjet
+- Footeren blev gjort mere informativ
+
+---
+
+## 3. Analyse af landingpage ud fra gestaltprincipper
+
+Efter redesignfasen analyserede jeg landingpagen ud fra gestaltprincipperne for at vurdere designets styrker og svagheder.
+
+Analysen fokuserede på usability, readability, visual hierarchy og interaktivitet.
+
+### Proximity (Nærhed)
+
+**Det fungerede godt:**
+
+- Produktbilleder og farvevalg var placeret tæt sammen
+- Funktionerne var organiseret i overskuelige grupper
+
+**Forbedringsmuligheder:**
+
+- CTA-knapper kunne forbindes tydeligere med produktet
+- Mere visuel feedback ved interaktion
+
+### Similarity (Lighed)
+
+**Det fungerede godt:**
+
+- Konsistent farvepalette
+- Sammenhængende typografi
+
+**Forbedringsmuligheder:**
+
+- Tydeligere active states ved farvevalg
+- Mere feedback på CTA-knapper
+
+### Continuity (Kontinuitet)
+
+**Det fungerede godt:**
+
+- Simpelt layout med fokus på produktet
+- Hero-sektionen guidede brugeren videre gennem siden
+
+**Forbedringsmuligheder:**
+
+- Smooth scrolling mellem sektioner
+- Stærkere flow gennem siden
+
+### Figure/Ground
+
+**Det fungerede godt:**
+
+- Produktet var det primære fokuspunkt
+
+**Forbedringsmuligheder:**
+
+- Mere synlige CTA-knapper
+- Tydeligere visuel feedback
+
+### Simplicity / Prägnanz
+
+**Det fungerede godt:**
+
+- Minimalistisk design
+- Overskuelig struktur
+
+**Forbedringsmuligheder:**
+
+- Flere interaktive elementer
+- Mere feedback til brugeren ved handlinger
+
+### Konklusion
+
+På baggrund af analysen valgte jeg at fokusere på:
+
+- Active states
+- Hover-effekter
+- JavaScript-baseret interaktivitet
+- Visuel feedback
+- Navigation
+- Brugeroplevelse
+
+---
+
+## 4. Implementering i HTML, CSS og JavaScript
+
+De designmæssige forbedringer blev efterfølgende implementeret i kode.
 
 ### Smooth Scrolling
 
 Jeg implementerede smooth scrolling ved hjælp af JavaScript og `scrollIntoView()`.
 
-Når brugeren klikker på knapperne "Læs mere" eller "Køb nu", scroller siden automatisk ned til produktsektionen med en smooth animation.
+Når brugeren klikker på:
 
-Dette skaber en mere intuitiv navigation og forbedrer brugeroplevelsen.
+- "Læs mere"
+- "Køb nu"
+
+scroller siden automatisk til produktsektionen.
+
+Dette forbedrer navigationen og skaber et mere naturligt flow.
+
+---
 
 ### Optimering af button-ID'er
 
-Jeg ændrede button-ID'erne til mere beskrivende navne for at gøre JavaScript-koden mere overskuelig og lettere at vedligeholde.
+Jeg ændrede button-ID'erne til mere beskrivende navne.
 
-Eksempel:
+Dette gør JavaScript-koden mere overskuelig og lettere at vedligeholde.
 
-- `topButtonGreen` → `buyBtn`
-- `topButtonWhite` → `readMoreBtn`
+---
 
 ### Produktsektion med navigation
 
 Jeg tilføjede ID'et `produktinfo` til produktsektionen.
 
-Dette gør det muligt for JavaScript at navigere direkte til produktområdet, når brugeren klikker på navigationsknapperne.
+Dette gør det muligt for JavaScript at navigere direkte til produktområdet.
+
+---
 
 ### Interaktivt farvevalg
 
 Jeg implementerede et interaktivt farvevalg ved hjælp af JavaScript.
 
-Når brugeren vælger en farvevariant:
+Når brugeren vælger en farve:
 
 - Markeres den valgte farve
 - Andre farver fravælges automatisk
-- Den valgte farve gemmes i JavaScript
+- Valget gemmes i JavaScript
+
+---
 
 ### Active States og visuel feedback
 
@@ -62,84 +227,125 @@ Den valgte farve får:
 - Shadow-effekt
 - Scaling-animation
 
-Derudover blev der tilføjet cursor- og transition-effekter for at skabe en mere smooth og intuitiv brugeroplevelse.
+Derudover blev der tilføjet:
+
+- Hover-effekter
+- Cursor-effekter
+- Transition-effekter
+
+for at forbedre brugeroplevelsen.
+
+---
 
 ### Dynamisk valg og fravalg af farver
 
 Farvevalgene blev gjort dynamiske.
 
-Hvis brugeren klikker på den samme farve igen:
+Hvis brugeren klikker på samme farve igen:
 
-- Fjernes markeringen
+- Markeringen fjernes
 - Valget nulstilles
 
 Hvis brugeren vælger en anden farve:
 
-- Fjernes active state fra den tidligere valgte farve
+- Tidligere active state fjernes
 - Den nye farve markeres automatisk
 
-### Køb nu-funktionalitet
+![Designforbedringer](img/lumina.farvevalg.png)
 
-Jeg implementerede JavaScript-funktionalitet på "Køb nu"-knappen.
+---
 
-Hvis brugeren ikke har valgt en farve:
+### Køb nu-funktion
 
-- Vises en advarselsbesked
+Jeg implementerede funktionalitet på "Køb nu"-knappen.
+
+Hvis ingen farve er valgt:
+
+- Der vises en advarselsbesked
+
+![Designforbedringer](img/advarelses.popup.png)
 
 Hvis en farve er valgt:
 
-- Vises en bekræftelsesbesked med den valgte farve
+- Der vises en bekræftelsesbesked med den valgte farve
+
+![Designforbedringer](img/lagt.i.kurven.popup.png)
 
 Dette giver brugeren tydelig feedback på handlingen.
+
+---
 
 ### Trustpilot-sektion
 
 Jeg gjorde Trustpilot-knappen interaktiv ved hjælp af JavaScript.
 
-Når brugeren klikker på knappen, modtager brugeren feedback, hvilket gør anmeldelsessektionen mere levende og interaktiv.
+Når brugeren klikker på knappen, modtager brugeren feedback, hvilket gør sektionen mere levende og interaktiv.
+
+![Designforbedringer](img/trust.pilot.popup.png)
+
+---
 
 ### Layoutforbedringer
 
-Jeg reducerede afstanden mellem inspirationsbillederne og tekstsektionen ved at justere `margin-top` i CSS.
+Jeg reducerede afstanden mellem inspirationsbillederne og tekstsektionen ved hjælp af CSS.
+
+![Designforbedringer](img/reduceret.afstand.png)
 
 Dette skaber:
 
 - Bedre visuel balance
 - Mere sammenhængende layout
-- Forbedret brugeroplevelse
+- Forbedret læsbarhed
 
 ---
 
-## Designproces
+# Teknologier
 
-Projektet blev først designet og prototypet i Figma.
-
-Efterfølgende blev designet implementeret i HTML, CSS og JavaScript, hvor der løbende blev arbejdet med forbedringer af både funktionalitet og brugeroplevelse.
-
----
-
-## Refleksion
-
-Gennem projektet har jeg opnået en bedre forståelse for samspillet mellem UX-design, UI-design og frontend-udvikling.
-
-Jeg har arbejdet med at omsætte designbeslutninger til funktionel kode og fået erfaring med JavaScript-interaktioner, visuel feedback, brugercentreret design og optimering af brugeroplevelsen.
+- HTML5
+- CSS3
+- JavaScript
+- Figma
+- GitHub
+- GitHub Pages
 
 ---
 
-## Links
+# Refleksion
 
-### GitHub Repository
+Gennem projektet har jeg arbejdet med hele UX-processen fra idé og vurdering til implementering.
+
+Jeg startede med at evaluere den eksisterende prototype, udviklede en forbedret version i Figma og analyserede derefter landingpagen ud fra gestaltprincipperne for at identificere styrker og svagheder i designet.
+
+På baggrund af dette implementerede jeg forbedringerne i HTML, CSS og JavaScript.
+
+Projektet har givet mig erfaring med:
+
+- UX-analyse
+- Gestaltprincipper
+- UI-design
+- Prototyping i Figma
+- Frontend-udvikling
+- JavaScript-interaktioner
+- Visuel feedback
+- Brugercentreret design
+- Git og GitHub
+
+---
+
+# Links
+
+## GitHub Repository
 
 Indsæt link her
 
-### GitHub Pages
+## GitHub Pages
 
 Indsæt link her
 
-### Figma Design
+## Figma Design
 
 Indsæt link her
 
-### Figma Prototype
+## Figma Prototype
 
 Indsæt link her
